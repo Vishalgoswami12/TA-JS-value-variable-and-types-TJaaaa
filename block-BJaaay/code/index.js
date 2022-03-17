@@ -11,22 +11,27 @@
 // Calculate the sum of all numbers from 1 to 10.
 
 // Log all the values from 1 to 10 using while loop
-for (let i = 1; i < 10; i++) {
+// for (let i = 1; i < 10; i++) {
+//   console.log(i);
+// }
+// for (let i = 1; i < 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+// for (let i = 1; i < 10; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+// }
+// //
+// let sum = 0;
+// for (let i = 1; i <= 10; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+let i = 0;
+while (i < 10) {
   console.log(i);
+  i++;
 }
-for (let i = 1; i < 10; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
-}
-for (let i = 1; i < 10; i++) {
-  if (i % 2 !== 0) {
-    console.log(i);
-  }
-}
-//
-let sum = 0;
-for (let i = 1; i <= 10; i++) {
-  sum = sum + i;
-}
-console.log(sum);
